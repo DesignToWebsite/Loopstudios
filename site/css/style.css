@@ -209,13 +209,13 @@ footer .copy{
         text-align:center; 
     }
     footer .link{
-        float: none;
+        text-align : center;
         margin-bottom: 20px;
     }
     footer .link a{
         padding-right:15px;
     }
     footer .copy{
-        float: none;    
+        text-align : center;    
     }
 }
