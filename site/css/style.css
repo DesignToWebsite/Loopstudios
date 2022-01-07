@@ -129,14 +129,14 @@ footer{
     padding-right: 15px;
 }
 footer .link{
-    float: right;
+    text-align: right;
     margin-bottom: 20px;
 }
 footer .link a{
     padding-right:15px;
 }
 footer .copy{
-    float: right;
+    text-align: right;
 }
 /************large devices only *****/
 
