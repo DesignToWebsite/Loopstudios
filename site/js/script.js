@@ -74,7 +74,7 @@ const creation = [
   },
 ];
 
-addContent = document.getElementById("addContent");
+const addContent = document.getElementById("addContent");
 
 window.addEventListener("DOMContentLoaded", function () {
   diplayMenuItems(creation);
