@@ -4,140 +4,182 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | [Zineb Essoussi]</title>
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Frontend Mentor | Loopstudios landing page</title>
 </head>
 
 <body>
+  <!----------------header-info----------------->
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark py-5" aria-label="Fourth navbar example">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="./images/logo.svg" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample04"
+          aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <span class="navbar-toggler-icon"></span> -->
+          <span class="open"><img src="./images/icon-hamburger.svg" alt="open menu icon" srcset=""></span>
+          <span class="close hide"><img src="./images/icon-close.svg" alt="close menu icon" srcset=""></span>
+        </button>
+
+        <div class="collapse navbar-collapse text-center" id="navbarsExample04">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active d-none" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Support</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="description">
+        <h2 class="header-text"> Immersive experiences that deliver
+        </h2>
+      </div>
+    </div>
+  </header>
+  <!----------------END header-info----------------->
+
+  <!----------------img+text----------------->
   <div class="container">
-    <div class="testimonials">
-      <div class="testimonials--big">
-        <div class="bg">
-          <img src="./images/bg-pattern-quotation.svg" alt="background">
-        </div>
-        <div class="info">
-          <div class="img">
-            <img src="./images/image-daniel.jpg" alt="daniel name" />
-          </div>
-          <div class="name">
-            <h3>Daniel Clifford</h3>
-            <p>Verified Graduate</p>
+    <div class="leader mb-5">
+      <div class="row">
+        <div class="col-lg-5 col-md-6 col-sm-12 col-12 p-0">
+          <div class="image w-100">
+            <img src="./images/desktop/image-interactive.jpg" alt="interactive image" width="100%">
           </div>
         </div>
-        <div class="view">
-          <h3 class="bold">
-            I received a job offer mid-course, and the subjects I learned were current, if not more so,
-            in the company I joined. I honestly feel I got every penny’s worth.
-          </h3>
-          <p class="normal">
-            “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
-            transition and have heard some people who had an amazing experience here. I signed up
-            for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
-            The next 12 weeks was the best - and most grueling - time of my life. Since completing
-            the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
-          </p>
-
-        </div>
-      </div>
-      <div class="testimonials--small">
-        <div class="info">
-          <div class="img">
-            <img src="./images/image-jonathan.jpg" alt="daniel name" />
+        <div class="col-lg-7 col-md-6 col-sm-12 col-12">
+          <div class="content text-center text-lg-justify text-md-justify mt-3">
+            <h1> The leader in interactive VR</h1>
+            <p>
+              Founded in 2011, Loopstudios has been producing world-class virtual reality
+              projects for some of the best companies around the globe. Our award-winning
+              creations have transformed businesses through digital experiences that bind
+              to their brand.
+            </p>
           </div>
-          <div class="name">
-            <h3>Jonathan Walters</h3>
-            <p>Verified Graduate</p>
-          </div>
-        </div>
-        <div class="view">
-          <h3 class="bold">
-            The team was very supportive and kept me motivated
-          </h3>
-          <p class="normal">
-            “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
-            for a big company. This was one of the best investments I’ve made in myself. ”
-          </p>
-        </div>
-      </div>
-      <div class="testimonials--small white">
-        <div class="info">
-          <div class="img">
-            <img src="./images/image-jeanette.jpg" alt="jeanette name" />
-          </div>
-          <div class="name">
-            <h3>
-              Jeanette Harmon
-            </h3>
-            <p>Verified Graduate</p>
-          </div>
-        </div>
-        <div class="view">
-          <h3 class="bold">
-            An overall wonderful and rewarding experience
-          </h3>
-          <p class="normal">
-            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
-            while doing something I love. ”
-          </p>
-        </div>
-      </div>
-      <div class="testimonials--big" style="background-color:var(--dark-blackish-blue)">
-        <div class="info">
-          <div class="img">
-            <img src="./images/image-patrick.jpg" alt="daniel name" />
-          </div>
-          <div class="name">
-            <h3>Patrick Abrams</h3>
-            <p>Verified Graduate</p>
-          </div>
-        </div>
-        <div class="view">
-          <h3 class="bold">
-            Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
-            learning from their experiences was easy.
-          </h3>
-          <p class="normal">
-            “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
-            gave me the confidence necessary to be able to go out in the world and present myself as a capable
-            junior developer. The standard is above the rest. You will get the personal attention you need from
-            an incredible community of smart and amazing people. ”
-
-          </p>
-
         </div>
       </div>
     </div>
-    <div class="testimonial">
-      <div class="info">
-        <div class="img">
-          <img src="./images/image-kira.jpg" alt="daniel name" />
-        </div>
-        <div class="name">
-          <h3>Kira Whittle</h3>
-          <p>Verified Graduate</p>
-        </div>
-      </div>
-      <div class="view">
-        <h3 class="bold">
-          Such a life-changing experience. Highly recommended!
-        </h3>
-        <p class="normal">
-          “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
-          professionals who can help me learn programming step by step. I was encouraged to enroll by a former
-          student of theirs who can only say wonderful things about the program. The entire curriculum and staff
-          did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team
-          project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial
-          could ever have. In fact, I’ve often referred to it during interviews as an example of my developent
-          experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers.
-          100% recommend! ”
-        </p>
 
+  </div>
+  <!----------------img+text----------------->
+
+  <!----------------creation category----------------->
+  <div class="container">
+    <div class="creation">
+      <div class="top py-3 d-none d-lg-block d-md-block">
+        <h3>Our creations</h3>
+        <!----------------btn-top-big----------------->
+        <button class="btn btn-creation d-none d-lg-block d-md-block">
+          See all
+        </button>
+        <!----------------btn-top-big----------------->
       </div>
+      <!----------------category-items----------------->
+      <div class="catalogues">
+        <div class="row" id="addContent">
+          <div class="col-md-3 col-sm-6 col-12">
+            <div class="catalogue">
+              <img src="./images/desktop/image-deep-earth.jpg" alt="">
+              <span class="text-uppercase">Deep earth</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!----------------category-items----------------->
+
+      <!----------------btn-botton-sm----------------->
+      <div class="d-black d-lg-none d-md-none text-center m-auto">
+        <button class="btn btn-creation d-black d-lg-none d-md-none text-center">
+          See all
+        </button>
+      </div>
+      <!----------------btn-botton-sm----------------->
+
     </div>
   </div>
 
+  <!----------------creation category----------------->
 
+  <footer class="py-5 mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-7 col-sm-12 col-12">
+          <!------logo+list------>
+          <div class="row">
+            <div class="col-12 mb-3">
+              <img src="./images/logo.svg" alt="logo">
+            </div>
+            <div class="col-12">
+              <ul class="footer-links">
+                <li>
+                  <a href="#">About</a>
+                </li>
+                <li>
+                  <a href="#">Careers</a>
+                </li>
+                <li>
+                  <a href="#">Events</a>
+                </li>
+                <li>
+                  <a href="#">Products</a>
+                </li>
+                <li>
+                  <a href="#">Support</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!------logo+list------>
+        </div>
+        <!--------social media-------->
+        <div class="col-md-5 col-sm-12 col-12 float-end">
+          <div class="link">
+            <a href="#">
+              <img src="./images/icon-facebook.svg" alt="facebook">
+            </a>
+            <a href="#">
+              <img src="./images/icon-twitter.svg" alt="twitter">
+            </a>
+            <a href="#">
+              <img src="./images/icon-pinterest.svg" alt="pinterest">
+            </a>
+            <a href="#">
+              <img src="./images/icon-instagram.svg" alt="instagram">
+            </a>
+          </div>
+          <!-- <br> -->
+          <p class="copy">&copy; <span>2000</span> Loopstudios. All rights reserved.</p>
+
+        </div>
+        <!--------social media-------->
+      </div>
+    </div>
+  </footer>
+  <script src="./js/bootstrap.min.js"></script>
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
